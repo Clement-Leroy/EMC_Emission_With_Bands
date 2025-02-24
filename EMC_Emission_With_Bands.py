@@ -2580,7 +2580,7 @@ def emission_charts(suspectsTable, data, selectedRows, figure_horizontal, figure
                                        name=row["Test Name"] + '-' + row["RBW"] + '-' + row['Detector'].replace('Meas.', '').replace(' (dBµV/m)', ''),
                                        hoverinfo='none', showlegend=True, meta=meta, visible=True,
                                        line=dict(color=color, dash='solid', width=1),
-                                       hovertemplate=f'<b>{row["Test Name"]} - {row["RBW"]} - {row['Detector'].replace('Meas.', '').replace(' (dBµV/m)', '')}</b><br>' + '<b>Frequency (MHz):</b> %{x:.2f}<br>' + '<b>Level (dBµV/m):</b> %{y:.2f} <extra></extra>'))
+                                       hovertemplate=f'<b>{row["Test Name"]} - {row["RBW"]} - {row["Detector"].replace("Meas.", "").replace(" (dBµV/m)", "")}</b><br>' + '<b>Frequency (MHz):</b> %{x:.2f}<br>' + '<b>Level (dBµV/m):</b> %{y:.2f} <extra></extra>'))
             cursor_options, cursor_value = set_cursor_list(figure)
             if row['Polarization'] == 'Horizontal':
                 cursor_options_h = cursor_options
