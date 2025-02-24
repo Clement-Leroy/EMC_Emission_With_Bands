@@ -2205,16 +2205,15 @@ def toggle_loading(content_project, n_clicks, style, rowData_tests, value):
     prevent_initial_call=True)
 
 def update_Project_list(Project_path, remove_click, Project_content, value, options, rowData_tests, rowData_scans, style):
-    # try:
-    triggered_id=ctx.triggered_id
-    if triggered_id == 'load-project':
-        return add_project(options,Project_path, Project_content, rowData_tests, rowData_scans, style)
-    elif triggered_id == 'Remove-project' and value is not None:
-        return remove_Project_list(value, options, rowData_tests, rowData_scans, style)
-    # except Exception as error:
-    #     print(error)
-    #     style['backgroundColor'] = 'red'
-    #     return options, rowData_tests, rowData_scans, None, [cross, '  Project update failed'], style
+    try:
+        triggered_id=ctx.triggered_id
+        if triggered_id == 'load-project':
+            return add_project(options,Project_path, Project_content, rowData_tests, rowData_scans, style)
+        elif triggered_id == 'Remove-project' and value is not None:
+            return remove_Project_list(value, options, rowData_tests, rowData_scans, style)
+    except:
+        style['backgroundColor'] = 'red'
+        return options, rowData_tests, rowData_scans, None, [cross, '  Project update failed'], style
 
 def add_project(options,Project_path, Project_content, rowData_tests, rowData_scans, style):
     if Project_path:
