@@ -2211,7 +2211,8 @@ def update_Project_list(Project_path, remove_click, Project_content, value, opti
             return add_project(options,Project_path, Project_content, rowData_tests, rowData_scans, style)
         elif triggered_id == 'Remove-project' and value is not None:
             return remove_Project_list(value, options, rowData_tests, rowData_scans, style)
-    except:
+    except Exception as error:
+        print(error)
         style['backgroundColor'] = 'red'
         return options, rowData_tests, rowData_scans, None, [cross, '  Project update failed'], style
 
