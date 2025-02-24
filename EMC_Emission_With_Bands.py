@@ -1919,7 +1919,7 @@ def emission_conducted(data, suspectsTable, selectedRows, figure_ground, figure_
                                                   name=row["Test Name"] + '-' + row["RBW"] + '-' + row['Detector'].replace('Meas.', '').replace(' (dBµV/m)', ''),
                                                   hoverinfo='none', showlegend=True, meta=meta, visible=True,
                                                   line=dict(color=color, dash='solid', width=1),
-                                                  hovertemplate=f'<b>{row["Test Name"]} - {row["RBW"]} - {row["Detector"].replace('Meas.', '').replace(' (dBµV/m)', '')}</b><br>' + '<b>Frequency (MHz):</b> %{x:.2f}<br>' + '<b>Level (dBµV/m):</b> %{y:.2f} <extra></extra>'))
+                                                  hovertemplate=f'<b>{row["Test Name"]} - {row["RBW"]} - {row["Detector"].replace("Meas.", "").replace(" (dBµV/m)", "")}</b><br>' + '<b>Frequency (MHz):</b> %{x:.2f}<br>' + '<b>Level (dBµV/m):</b> %{y:.2f} <extra></extra>'))
             cursor_options, cursor_value = set_cursor_list(figure)
             if row['Polarization'] == 'Ground':
                 cursor_options_ground = cursor_options
