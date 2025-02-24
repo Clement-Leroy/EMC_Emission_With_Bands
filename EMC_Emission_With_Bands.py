@@ -3866,4 +3866,4 @@ def toggle_line_param (line_param_1, line_param_2, btn_txt_2):
     return line_param_1, line_param_2, btn_txt_1, btn_txt_2
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server(debug=False)
