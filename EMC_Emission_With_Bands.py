@@ -14,6 +14,7 @@ import zipfile
 import tempfile
 import math
 import numpy as np
+import dashAgGridComponentFunctions
 
 def add_rowSpan(data, group):
     for i ,row in enumerate(data):
