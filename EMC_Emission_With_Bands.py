@@ -1623,7 +1623,7 @@ def emphasize_chart_horizontal(line_table, figure):
     else:
         raise PreventUpdate
 
-@app.callback(Output('emission_conducted_supply', 'figure', allow_duplicate = True),
+@app.callback(Output('emission_conducted_vertical', 'figure', allow_duplicate = True),
     Input('line-table-v', 'virtualRowData'),
     State('emission_radiated_vertical', 'figure'),
     prevent_initial_call=True,
@@ -2418,7 +2418,6 @@ def update_Test_table(project, test_data, columnDefs):
 @app.callback(Output('emission_conducted_ground', 'figure',allow_duplicate = True),
     Output('emission_conducted_supply', 'figure',allow_duplicate = True),
     Input('suspectsTable-conducted', 'selectedRows'),
-
     State('suspectsTable-conducted', 'rowData'),
     State('emission_conducted_ground', 'figure'),
     State('emission_conducted_supply', 'figure'),
