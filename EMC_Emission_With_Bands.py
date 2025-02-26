@@ -903,8 +903,8 @@ TL_81000_2021_SL_class_5 = {'GroupName': ['Base Limits', 'Base Limits', 'Base Li
 
 Limit_database = {'CE AN Non-Spark Requirements (reduced)': CE_AN_Non_Spark_Requirements_reduced, 'CE AN Non-Spark Requirements': CE_AN_Non_Spark_Requirements, 'CE AN Spark Requirements': CE_AN_Spark_Requirements, 'CISPR 25 (2016) 4.0 AN - class 1': CISPR_25_4_AN_class_1, 'CISPR 25 (2016) 4.0 AN - class 2': CISPR_25_4_AN_class_2, 'CISPR 25 (2016) 4.0 AN - class 3': CISPR_25_4_AN_class_3, 'CISPR 25 (2016) 4.0 AN - class 4': CISPR_25_4_AN_class_4, 'CISPR 25 (2016) 4.0 AN - class 5': CISPR_25_4_AN_class_5, 'CISPR 25 (2016) 4.0 RE - class 5': CISPR_25_4_RE_class_5, 'CISPR 25 (2021-12) 5.0 AN - class 1': CISPR_25_5_AN_class_1, 'CISPR 25 (2021-12) 5.0 AN - class 2': CISPR_25_5_AN_class_2, 'CISPR 25 (2021-12) 5.0 AN - class 3': CISPR_25_5_AN_class_3, 'CISPR 25 (2021-12) 5.0 AN - class 4': CISPR_25_5_AN_class_4, 'CISPR 25 (2021-12) 5.0: AN - class 5': CISPR_25_5_AN_class_5, 'CISPR 25 (2021-12) 5.0 RE - class 1': CISPR_25_5_RE_class_1, 'CISPR 25 (2021-12) 5.0 RE - class 2': CISPR_25_5_RE_class_2, 'CISPR 25 (2021-12) 5.0 RE - class 3': CISPR_25_5_RE_class_3, 'CISPR 25 (2021-12) 5.0 RE - class 4': CISPR_25_5_RE_class_4, 'CISPR 25 (2021-12) 5.0: RE - class 5': CISPR_25_5_RE_class_5, 'FMC1278 (2021-10) CE420 - HV': FMC1278_CE420_HV, 'FMC1278 (2021-10) CE420 - LV': FMC1278_CE420_LV, 'FMC1278 (2021-10) RE310': FMC1278_RE310, 'GMW3097_Table3_NonSpark': GMW3097_Table3_NonSpark, 'GS 95002 (2019-10) CV': GS_95002_CV, 'GS 95002-2 (2019-10) AN - class 3': GS_95002_2_AN_class_3, 'GS 95002-2 (2019-10) AN - class 4': GS_95002_2_AN_class_4, 'GS 95002-2 (2019-10) AN - class 5': GS_95002_2_AN_class_5, 'GS 95002-2 (2019-10) RE - class 4': GS_95002_2_RE_class_4, 'GS 95002-2 (2019-10) RE - class 5': GS_95002_2_RE_class_5, 'GS 95002-2 (2019-10) SL - class 3': GS_95002_2_SL_class_3, 'GS 95002-2 (2019-10) SL - class 4': GS_95002_2_SL_class_4, 'GS 95002-2 (2019-10) SL - class 5': GS_95002_2_SL_class_5, 'GS 95002-2 (2021-05) AN-Test - Class 3': GS_95002_2_AN_Test_Class_3, 'GS 95002-2 (2021-05) AN-Test - Class 4': GS_95002_2_AN_Test_Class_4, 'GS 95002-2 (2021-05) AN-Test - Class 5': GS_95002_2_AN_Test_Class_5, 'GS 95002-2 (2021-05) CV-Test': GS_95002_2_CV_Test, 'GS 95002-2 (2021-05) RE-Test - Class 3': GS_95002_2_RE_Test_Class_3, 'GS 95002-2 (2021-05) RE-Test - Class 4': GS_95002_2_RE_Test_Class_4, 'GS 95002-2 (2021-05) RE-Test - Class 5': GS_95002_2_RE_Test_Class_5, 'MBN 10284-2 2019-10 AN': MBN_10284_2_2019_10_AN, 'MBN 10284-2 2019-10 NFA': MBN_10284_2_2019_10_NFA, 'MBN 10284-2 2019-10 RE': MBN_10284_2_2019_10_RE, 'MPS GER-LAB EMC_V0.1 AN': MPS_GER_LAB_EMC_V01_AN, 'MPS GER-LAB EMC_V0.2 RE - class 5': MPS_GER_LAB_EMC_V02_RE_class_5, 'PSA B21 7110 MC03 Lacroix': PSA_B21_7110_MC03_Lacroix, 'PSA B21 7110 MR01 Permanent Noise': PSA_B21_7110_MR01_Permanent_Noise, 'PSA B21 7110 MR01 Short Noise V4': PSA_B21_7110_MR01_Short_Noise_V4, 'RE ALSE Non-Spark Requirements (reduced)': RE_ALSE_Non_Spark_Requirements_reduced, 'RE ALSE Non-Spark Requirements': RE_ALSE_Non_Spark_Requirements, 'RE ALSE Spark Requirements': RE_ALSE_Spark_Requirements, 'RNDS-C-00517 v1.1 AN': RNDS_C_00517_v1_1_AN, 'RNDS-C-00517 v1.1 RE': RNDS_C_00517_v1_1_RE, 'TL 81000 (2018-03) AN - class 3': TL_81000_2018_AN_class_3, 'TL 81000 (2018-03) AN - class 4': TL_81000_2018_AN_class_4, 'TL 81000 (2021-09): AN - class 5': TL_81000_AN_class_5, 'TL 81000 (2018-03) RE - class 3': TL_81000_2018_RE_class_3, 'TL 81000 (2018-03) RE - class 4': TL_81000_2018_RE_class_4, 'TL 81000 (2021-09): RE - class 5': TL_81000_2018_RE_class_5, 'TL 81000 (2018-03) SL - class 3': TL_81000_2018_SL_class_3, 'TL 81000 (2018-03) SL - class 4': TL_81000_2018_SL_class_4, 'TL 81000 (2021-09): SL - class 5': TL_81000_2018_SL_class_5, 'TL 81000 (2021-09) AN - class 3': TL_81000_2021_AN_class_3, 'TL 81000 (2021-09) AN - class 4': TL_81000_2021_AN_class_4, 'TL 81000 (2021-09) AN - class 5': TL_81000_2021_AN_class_5, 'TL 81000 (2021-09) RE - class 3': TL_81000_2021_RE_class_3, 'TL 81000 (2021-09) RE - class 4': TL_81000_2021_RE_class_4, 'TL 81000 (2021-09) RE - class 5': TL_81000_2021_RE_class_5, 'TL 81000 (2021-09) SL - class 3': TL_81000_2021_SL_class_3, 'TL 81000 (2021-09) SL - class 4': TL_81000_2021_SL_class_4, 'TL 81000 (2021-09) SL - class 5': TL_81000_2021_SL_class_5}
 
-default_colors = ['#1f77b4','#ff7f0e','#2ca02c','#d62728','#9467bd','#8c564b','#e377c2','#7f7f7f','#bcbd22','#17becf']
-name2color = {'Blue':'#1f77b4', 'Orange':'#ff7f0e', 'Green':'#2ca02c', 'Red':'#d62728', 'Purple':'#9467bd', 'Brown':'#8c564b', 'Pink':'#e377c2', 'Gray':'#7f7f7f', 'Light green':'#bcbd22','Light blue':'#17becf'}
+default_colors = ['#1f77b4','#ff7f0e','#2ca02c','#d62728','#9467bd','#8c564b','#e377c2','#7f7f7f']
+name2color = {'Blue':'#1f77b4', 'Orange':'#ff7f0e', 'Green':'#2ca02c', 'Red':'#d62728', 'Purple':'#9467bd', 'Brown':'#8c564b', 'Pink':'#e377c2', 'Gray':'#7f7f7f'}
 detector2color = {'Peak':'#1f77b4', 'QPeak':'#d62728', 'AVG':'#2ca02c'}
 
 detector_to_color_gradient = {
@@ -913,7 +913,7 @@ detector_to_color_gradient = {
     'AVG': {'9 kHz': 'rgb(115,196,118)', '120 kHz': 'rgb(47,151,78)', '200 kHz': 'rgb(47,151,78)', '1 MHz': 'rgb(0,100,40)'}
 }
 
-Gradient = {'Blue' : 'Blues', 'Orange' : 'Oranges', 'Green' : 'Greens', 'Red' : 'Reds', 'Purple' : 'Purples', 'Brown' : 'copper', 'Pink' : 'RdPu', 'Gray' : 'Grays', 'BuGn' : 'BuGn', 'GnBu' : 'GnBu'}
+Gradient = {'Blue' : 'Blues', 'Orange' : 'Oranges', 'Green' : 'Greens', 'Red' : 'Reds', 'Purple' : 'Purples', 'Brown' : 'copper', 'Pink' : 'RdPu', 'Gray' : 'Grays'}
 
 emission_h_layout = {'height': '600px',
                'hovermode': 'closest',
@@ -1204,7 +1204,7 @@ columnDefs_noise = [{"headerName":"", "checkboxSelection": True, "headerCheckbox
     {"headerName": "Data", "field": "Data", "hide": True}]
 
 columnDefs_line = [{"headerName":"Name","field": "Name", 'width': 500},
-    {"headerName":"Color","field": "Color",'width':'90px','editable':True, 'flex':1,'cellEditor':'agSelectCellEditor', 'cellEditorParams': {'values':['Blue', 'Orange', 'Green', 'Red', 'Purple', 'Brown', 'Pink', 'Gray', 'Light green','Light blue']}},
+    {"headerName":"Color","field": "Color",'width':'90px','editable':True, 'flex':1,'cellEditor':'agSelectCellEditor', 'cellEditorParams': {'values':['Blue', 'Orange', 'Green', 'Red', 'Purple', 'Brown', 'Pink', 'Gray']}},
     {"headerName":"Width","field": "Width",'width':'90px','editable':True, 'flex':1,'cellEditor':{"function": "NumberInput"},"cellEditorParams" : {"placeholder": "Enter a number"}},
     {"headerName":"Type","field": "Type",'width':'90px', 'editable':True, 'flex':1,'cellEditor':'agSelectCellEditor', 'cellEditorParams': {'values':['solid','dash','dot']}}]
 
@@ -1449,6 +1449,11 @@ line_table_supply = dag.AgGrid(
         id="line-table-supply",
         rowData=[],
         columnDefs=columnDefs_line,
+        dashGridOptions={"rowDragManaged": True,
+                         "rowDragEntireRow": True,
+                         "rowSelection": "multiple",
+                         "suppressMoveWhenRowDragging": True,
+                         "isRowSelectable": {'function': "params.data.disabled == 'False'"}},
         defaultColDef={"rowDragManaged": True,
                 "rowDragEntireRow": True,
                 "rowSelection": "multiple",
@@ -1469,7 +1474,7 @@ marker_menu_conducted = html.Div([dbc.Row(dbc.Stack([html.Label('Activate Marker
 minimize_suspectTable_conducted_btn = html.Div([dbc.Row(html.Button('Hide Suspect Table',id='minimize_suspectTable_conducted_btn',n_clicks=1,style={'width':'230px','height':'50px',"padding": "15px","background-color": "#1F3A68","color": "#FFF","border": "none","cursor": "pointer","font-size": "14px","font-family": "Arial, sans-serif","border-radius": "5px"}),justify='center')],style={'border':'1px solid #d6d6d6','border-radius':'10px','padding':'10px','margin-bottom':'10px'})
 
 default_colors = ['#1f77b4','#ff7f0e','#2ca02c','#d62728','#9467bd','#8c564b','#e377c2','#7f7f7f','#bcbd22','#17becf']
-name2color = {'Blue':'#1f77b4', 'Orange':'#ff7f0e', 'Green':'#2ca02c', 'Red':'#d62728', 'Purple':'#9467bd', 'Brown':'#8c564b', 'Pink':'#e377c2', 'Gray':'#7f7f7f', 'Light green':'#bcbd22','Light blue':'#17becf'}
+name2color = {'Blue':'#1f77b4', 'Orange':'#ff7f0e', 'Green':'#2ca02c', 'Red':'#d62728', 'Purple':'#9467bd', 'Brown':'#8c564b', 'Pink':'#e377c2', 'Gray':'#7f7f7f'}
 
 app.layout = html.Div([
     # Button to toggle the sidebar
@@ -1640,7 +1645,7 @@ def returnSum(myDict):
 
 def emphasize_chart(line_table, figure):
     color_to_color_gradient = {'Blue': {}, 'Orange': {}, 'Green': {}, 'Red': {}, 'Purple': {}, 'Brown': {}, 'Pink': {},
-                               'Gray': {}, 'Light green': {}, 'Light blue': {}}
+                               'Gray': {}}
     for index, trace in enumerate(figure['data']):
         if 'Limit' not in trace['name'] and 'Suspect' not in trace['name'] and 'Marker' not in trace['name']:
             if trace['meta']['Color'][0] in color_to_color_gradient[trace['meta']['Color'][1]]:
@@ -2693,7 +2698,7 @@ def set_cursor_list(figure):
 
 def set_color(figure):
     color_to_color_gradient = {'Blue': {}, 'Orange': {}, 'Green': {}, 'Red': {}, 'Purple': {}, 'Brown': {}, 'Pink': {},
-                               'Gray': {}, 'Light green': {}, 'Light blue': {}}
+                               'Gray': {}}
     for index, trace in enumerate(figure['data']):
         if 'Limit' not in trace['name'] and 'Suspect' not in trace['name'] and 'Marker' not in trace['name']:
             if trace['meta']['Color'][0] in color_to_color_gradient[trace['meta']['Color'][1]]:
