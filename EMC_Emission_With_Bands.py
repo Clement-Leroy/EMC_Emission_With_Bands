@@ -14,6 +14,7 @@ import zipfile
 import tempfile
 import math
 import numpy as np
+import dash_auth
 
 def add_rowSpan(data, group):
     for i ,row in enumerate(data):
@@ -1189,7 +1190,10 @@ getRowStyle_test = {
     ]
 }
 
+USERNAME_PASSWORD_PAIRS = [['username','password']]
+
 app = dash.Dash(__name__, include_assets_files=True, external_stylesheets=[dbc.themes.BOOTSTRAP])
+auth = dash_auth.BasicAuth(app, USERNAME_PASSWORD_PAIRS)
 server = app.server
 
 columnDefs_limits = [{"checkboxSelection": {'function': "params.data.disabled == 'False'"}, 'showDisabledCheckboxes': True, "headerCheckboxSelection": True, 'width': 50, 'pinned': 'left'},
