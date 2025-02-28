@@ -2101,9 +2101,9 @@ def selected_data(selectedRows, remove_project, selected_data_conducted, selecte
     triggered_id = ctx.triggered_id
     if triggered_id == 'Test-table' and rowData_scans and columnDefs != columnDefs_tests:
         if selectedRows == []:
-            if list(rowData_scans[selected_project].values())[0][0]['Type'] == 'Conducted Voltage Emissions' and list(rowData_scans[selected_project].values())[btn_clicked['rowIndex']][0]['Test Name'] in [data['Test Name'] for data in list(selected_data_conducted)]:
+            if list(rowData_scans[selected_project].values())[btn_clicked['rowIndex']][0]['Type'] == 'Conducted Voltage Emissions' and list(rowData_scans[selected_project].values())[btn_clicked['rowIndex']][0]['Test Name'] in [data['Test Name'] for data in list(selected_data_conducted)]:
                 return add_selected_data(selectedRows, selected_data_conducted, 'Conducted Voltage Emissions'), no_update
-            elif list(rowData_scans[selected_project].values())[0][0]['Type'] == 'Radiated Electric Emissions' and list(rowData_scans[selected_project].values())[btn_clicked['rowIndex']][0]['Test Name'] in [data['Test Name'] for data in list(selected_data_radiated)]:
+            elif list(rowData_scans[selected_project].values())[btn_clicked['rowIndex']][0]['Type'] == 'Radiated Electric Emissions' and list(rowData_scans[selected_project].values())[btn_clicked['rowIndex']][0]['Test Name'] in [data['Test Name'] for data in list(selected_data_radiated)]:
                 return no_update, add_selected_data(selectedRows, selected_data_radiated, 'Radiated Electric Emissions')
             else:
                 raise PreventUpdate
