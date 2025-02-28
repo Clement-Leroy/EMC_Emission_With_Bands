@@ -2165,7 +2165,6 @@ def showChange(show_btn, hide_btn, selected_project, rowData_tests, rowData_scan
     triggered_id = ctx.triggered_id
     if selected_project:
         if triggered_id == "Test-table":
-            print(rowData_tests[selected_project][show_btn['rowIndex']]['Test Name'])
             columnDefs, rowData = columnDefs_scans, rowData_scans[selected_project][rowData_tests[selected_project][show_btn['rowIndex']]['Test Name']]
             selectedRows = selected_data_conducted + selected_data_radiated
             return columnDefs, rowData, selectedRows
